@@ -21,8 +21,6 @@ background: #faf8ef;
 color: #776e65;
 font-family: "微软雅黑","Helvetica Neue", Arial, sans-serif;
 font-size: 16px;
-
--ms-user-select:none;
 }
 .linkbtn{
     display: inline-block;
@@ -44,7 +42,7 @@ background-color:#16C8C8;
 }
 </style>
 </head>
-<body id="index_body">
+<body id="index_body"  oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
 <a name="xn_share" id="renrenid"  type="button_large" href="javascript:;"></a>
 <div style="position: absolute;">
 	<a  class="linkbtn" id="aios" target="_blank" href="#" style="z-index:100;">苹果IOS下载地址</a>
